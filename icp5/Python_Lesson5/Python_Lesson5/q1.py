@@ -11,6 +11,6 @@ intercept=meany-(slope*meanx) #c=y-mx
 print("slope",slope)
 print("intercept",intercept)
 val=(slope*x)+intercept
-plt.plot(x,y)
+plt.scatter(x,y)
 plt.plot(x,val)
 plt.show()
